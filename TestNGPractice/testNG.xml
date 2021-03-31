@@ -1,0 +1,47 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test-Suite Name" >
+<listeners>
+<listener class-name = "Listeners.ListernerOne"> </listener> 
+</listeners>
+<test name="ListenerTesting">
+<classes>
+   <class name="Listeners.TestClass" />
+</classes>
+</test>
+</suite>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <groups>
+   <dependencies>
+   <group depends-on="BrowserOpening" name="LoggedIn"/>
+   <group depends-on="LoggedIn" name ="AccountDetails"/>
+   <group depends-on="AccountDetails" name = "SignOut"/>
+   </dependencies>
+</groups> -->

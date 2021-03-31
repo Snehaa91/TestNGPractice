@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+ 
+<suite name="Parentsuite">
+    
+    <listeners>
+        <listener class-name="ListenerThree"></listener>
+    </listeners>
+    
+    <suite-files>
+        <suite-file path="testNG1.xml"> </suite-file>
+        <suite-file path="TestNG2.xml"> </suite-file>
+    </suite-files>
+</suite>

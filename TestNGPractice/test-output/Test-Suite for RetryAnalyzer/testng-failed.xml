@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test-Suite for RetryAnalyzer]">
+  <listeners>
+    <listener class-name="Listeners.ListenerEight"/>
+  </listeners>
+  <test thread-count="5" name="RetryListenerTesting2(failed)">
+    <classes>
+      <class name="Listeners.TestClassFive">
+        <methods>
+          <include name="Test1"/>
+          <include name="Test2"/>
+        </methods>
+      </class> <!-- Listeners.TestClassFive -->
+    </classes>
+  </test> <!-- RetryListenerTesting2(failed) -->
+</suite> <!-- Failed suite [Test-Suite for RetryAnalyzer] -->
